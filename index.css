@@ -1,0 +1,195 @@
+:root{
+   --bleu : #85C3E9;
+   --vert : #CEDD3E;
+   --bleutext : #25384F;
+   --bleubackground : #374F6C;
+   --blanc : white;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.banner  {
+    background-color: var(--bleutext);
+    height: 40px;
+   
+ 
+}
+.banner  ul{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.banner ul li{
+list-style: none;
+}
+.banner ul li a{
+text-decoration: none;
+color: var(--bleu)
+}
+#explorer{
+    color: white;
+    border-bottom: 4px solid var(--bleu);
+}
+#connexion{
+    background-color: var(--bleubackground);
+    height: 40px;
+    width: 110px;
+    padding-left: 20px;
+    position: relative;
+    left: 50px;
+    text-align: center;
+    
+}
+#essai{
+    background-color: var(--vert);
+    height: 40px;
+    width: 200px;
+    padding-left: 50px;
+}
+#essai a{
+    columns: var(--bleutext);
+    
+}
+
+button{
+background-color: var(--bleutext);
+border: none;
+color: var(--bleu);
+}
+button .searchButton{
+border: none;
+}
+input{
+    background-color: var(--bleutext);
+    height: 40px;
+    border: none;
+    color: #CEDD3E;
+    
+}
+input .searchTerm{
+    columns: var(--bleu);
+}
+
+/* bannier menu debut */
+
+.menu{
+display: flex;
+justify-content: space-between;
+/* background-color: #CEDD3E; */
+text-align: center;
+height: 70px;
+}
+.menu .menuright{
+padding-right: 18%;
+}
+.menu .menuright nav{
+
+}
+.menu .menuright nav ul{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+.menu .menuright nav ul li{
+    list-style: none;
+    padding-left: 40px;
+}
+.menu .menuright nav ul li a{
+    text-decoration: none;
+    color: var(--bleutext);
+    font-size: 14px;
+}
+.menu .menuleft{
+padding-left: 90px;
+}
+.menu .menuleft p{
+font-size: 25px;
+font-weight:bolder;
+color: var(--bleutext);
+}
+.menu .menuleft span{
+color: var(--bleu);
+font-size: 40px;
+}
+    
+/* main top */
+.maintop{
+    background-color: #85C3E9;
+    padding: 60px 7%;  
+    height:320px ;
+    
+}
+.maintopleft{
+position: relative;
+left: 5%;
+}
+.maintopleft H1{
+color: var(--bleutext);
+font-size: 50px;
+
+}
+.maintopleft p{
+color: var(--bleutext); 
+margin-top: 14px;   
+
+} 
+.maintopleft button{
+background-color: var(--vert);
+color: var(--bleutext);
+height: 50px;
+border-radius: 4px;
+width: 20%;
+font-weight: bold;
+margin-top: 20px;
+}
+.maintopleft button a{
+    color: var(--bleutext);
+    text-decoration: none;
+}
+.maintopright {
+    width: 350px;
+    position: relative;
+    left: 35%;
+    bottom: 350px;
+    
+
+}
+.maintopright img{
+    height: 420px;
+    width: 700px;
+    
+}
+/* main bottom */
+.mainbottom{
+    padding: 60px 7%;  
+    height:280px ;
+
+}
+.mainbottom .mainbottomleft{
+    position: relative;
+left: 20%;
+top: 14%;
+}
+.mainbottom .mainbottomleft img{
+    height: 250px;
+    width: 350px;
+
+}
+.mainbottom .mainbottomright{
+width: 40%;
+width: 350px;
+position: relative;
+left: 55%;
+bottom: 82%;
+
+}
+.mainbottom .mainbottomright h1{
+    color: var(--bleutext);
+font-size: 30px;
+}
+.mainbottom .mainbottomright p{
+    color: var(--bleutext); 
+    font-size: 12px;
+}
