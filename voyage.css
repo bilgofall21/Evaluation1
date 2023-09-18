@@ -1,0 +1,273 @@
+/* general */
+:root{
+    --saumon : #FEF7DB;
+    --rouge : #7D0B0D;
+    --gris : #6F6A62;
+    --saumon2 : #F7EBCC;
+}
+
+*
+{
+    padding: 0;
+    margin: 0;
+      font-family:'Gill Sans';
+}
+.clear{
+    margin-top: 15px;
+}
+
+/* menu  debut*/
+header .menucontainer{
+background-color: var(--saumon);
+height: 100px;
+width: 100%;
+display: flex;
+justify-content: space-between;
+}
+header .menucontainer .logo{
+
+}
+header .menucontainer .logo img{
+height: 80px;
+padding-left: 40px;
+padding-top: 10px;
+}
+header .menucontainer .menu{
+
+}
+header .menucontainer .menu nav{
+
+}
+header .menucontainer .menu nav ul{
+display: flex;
+justify-content: space-between;
+padding-top: 15%;
+padding-right: ;
+
+
+}
+header .menucontainer .menu nav ul li{
+  padding-right: 60px;
+  list-style: none;
+
+}
+header .menucontainer .menu nav ul li a{
+text-decoration: none;
+color: black;
+}
+header .menucontainer .menu nav ul li a:focus{
+color: var(--rouge);
+border-bottom: 2px solid var(--rouge);
+}
+/* menu fin */
+
+/* main debut cconstitue de mainimge et maincontenue*/
+/* mainimage */
+main .maincontainer{
+    background-color: var(--saumon2);
+}
+main .maincontainer .mainimage{
+height: 350px;
+padding: 20px 50px;
+}
+main .maincontainer .mainimage img{
+    height: 350px;
+    width: 100%;
+    border-radius: 15px;
+}
+main .maincontainer .mainimage .overlay{
+background-color: rgba(0, 0, 0, 0.685);
+position: relative;
+bottom: 17%;
+border-radius: 6px;
+
+}
+main .maincontainer .mainimage .overlay p{
+color: white;
+font-size: 19px;
+padding-top: 5px;
+font-weight: bold;
+}
+main .maincontainer .mainimage .overlay button{
+background-color: var(--rouge);
+height: 30px;
+width:10%;
+font-size: 15px;
+border-radius: 6px;
+border: none;
+position: relative;
+left: 89%;
+bottom: 10px;
+}
+main .maincontainer .mainimage .overlay button a{
+    color: white;
+}
+/* mainimge fin */
+
+/* main contenue forme de contenutext et contenue popup*/
+
+/* main contenutetx debut */
+
+.maincontenue {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1.5px dashed var(--rouge);
+
+
+}
+.maincontenue .contenuetext{
+   padding-left: 54px;
+}
+.maincontenue .contenuetext h1{
+    font-size: 60px;
+    font-weight: regular;
+}
+.maincontenue .contenuetext img{
+    height: 45px;
+    position: relative;
+    top: 12px;
+}
+.maincontenue .contenuetext p{
+    font-size: medium;
+    color: rgb(71, 71, 71);
+}
+/* main contenutetx fin */
+
+/* main contenupopup debut */
+
+.contenupopup{
+    background-color: var(--gris);
+    height: 400px;
+    width: 18%;
+    padding: 5px 18px;
+    border-radius: 2%;
+    position: relative;
+    top: 15px;
+    right: 50px;
+}
+.contenupopup h4{
+    color: white;
+    font-size: 15px;
+}
+.contenupopup .popupimage{
+}
+.contenupopup .zozo{
+    height: 130px;
+    padding-left: 36px;
+    padding-top: 15px;
+}
+.bulle{
+    position: relative;
+    top: 140px;
+    right: 30px;
+}
+.contenupopup .popuptext{
+    padding-top: 15px;
+    padding-left: 18px;
+    padding-bottom: 20px;
+}
+.contenupopup .popuptext p{
+    color: white;
+    font-size: small;
+}
+
+.contenupopup .popupicone{
+    
+}
+.contenupopup .popupicone ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+.contenupopup .popupicone ul li{
+    list-style: none;
+}
+.contenupopup .popupicone ul li a{
+    
+}
+#icone{
+    height: 40px;
+}
+/* main popup fin */
+
+/* main bouton up */
+.drope{
+    background-color: var(--saumon2);
+    width: 3.5%;
+    height: 28px;
+    border-radius: 50%;
+    margin-left:50% ;
+    position: relative;
+    top:14px;
+    border-bottom: 0.5px solid black;
+}
+.iconedrope{
+    margin-left: 18px;
+    position: relative;
+    top: 10px;
+}
+/* main fin */
+
+/* footer debut */
+
+
+.footercontainer{
+   display: flex;
+   justify-content: space-evenly;
+   background-color: var(--saumon);
+   padding-top: 20px;
+   height: 140px;
+   border-top: 1.5px dashed var(--rouge);
+
+}
+.footercontainer .footerright ul li, .footeraftermiddle ul li {
+    list-style-image: url(icone\ liste\ .png);
+}
+/* footer left */
+
+
+.footercontainer .footerleft{
+
+}
+.footercontainer .footerleft h4, .footercontainer .footermedieum h4, .footercontainer .footeraftermiddle h4{
+    color: rgb(71, 71, 71);
+}
+.footercontainer .footerleft p{
+    padding-top: 10px;
+    font-size: 15px;
+    color: rgb(71, 71, 71);
+}
+/* footer medium */
+.footercontainer .footermedieum .footerimage{
+padding-top: 15px;
+}
+
+.footercontainer .footermedieum .footerimage img{
+height: 75px;
+border: 1px solid var(--gris);
+
+}
+
+/* footer after middle */
+.footercontainer .footeraftermiddle{
+
+}
+
+.footercontainer .footeraftermiddle ul{
+    padding-top: 15px;
+}
+.footercontainer .footeraftermiddle ul li, .footercontainer .footerright ul li{
+    color: var(--rouge);
+}
+
+/* footer left */
+
+.footercontainer .footerright{
+
+}
+.footercontainer .footerright ul{
+    padding-top: 30px;
+}
+.footercontainer .footerright ul li{
+
+}
+/* footer fin */
